@@ -4,25 +4,20 @@
 
 1. Clone the repository:
    
-    git clone https://github.com/yourusername/flask_notes_app.git
+    gh repo clone Sagargit-tech/flaskcrudapi
     cd flask_notes_app
     
 2. Set up a virtual environment:
    
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    python3 -m venv myenv
+    source myenv/bin/activate  # On Windows use `venv\Scripts\activate`
     
 3. Install dependencies:
    
     pip install -r requirements.txt
     
-4. Initialize the database:
-   
-    flask db init
-    flask db migrate -m "Initial migration."
-    flask db upgrade
-    
-5. Run the application:
+
+4. Run the application:
    
     flask run
     
